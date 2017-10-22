@@ -33,6 +33,7 @@ public class Calculator {
 //	두번째 값을 입력하시오. 2
 //	나눗셈 : 20 / 2 = 10
 //	연산기호를 입력하시오. quit
+//	최종결과값 : 10
 //	계산기 끝~ 안녕!
 
 	public static void main(String[] args) {
