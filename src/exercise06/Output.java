@@ -10,4 +10,15 @@ package exercise06;
  */
 public class Output {
 
+	/**
+	 * @param result
+	 * @param symbol
+	 * @param second
+	 * @param result2 
+	 */
+	public void printInfo(int first, String symbol, int second, int result) {
+		System.out.println(first+" "+symbol+" "+second+" = "+result);
+		
+	}
+
 }
