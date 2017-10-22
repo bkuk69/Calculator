@@ -19,6 +19,7 @@ public class Calculator {
 	 * 문자s를 숫자로 바꿀 경우 Integer.parseInt(s)의 형식으로 사용하시오.
 	 * equals메서드 사용(A와 B글자가 같은 내용인지 알아볼때 A.equals(B) 형태로 사용 결과는 true,false로 전달
 	 */
+
 //	출력형태
 //	첫번째 값을 입력하시오. 5
 //	연산기호를 입력하시오. *
@@ -31,16 +32,15 @@ public class Calculator {
 //	계산기 끝~ 안녕!
 
 	public static void main(String[] args) {
-		
+
 		getUserInput();
+
 	}
+
 	
 	private static String getUserInput() {
 		Scanner sc = new Scanner(System.in);
 		String input = sc.next();
 		return input;
-		
 	}
-
-
 }
